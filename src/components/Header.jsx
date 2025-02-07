@@ -159,7 +159,7 @@ const Header = () => {
             </button>
             <button
               onClick={() => window.open("https://t.me/FSA_syesteam", "_blank")}
-              className="bg-teal-500 text-white text-xl font-semibold py-2 px-6 rounded-lg shadow-lg hover:bg-teal-400 transition-colors duration-300 ease-in-out transform hover:scale-105 flex items-center"
+              className="bg-teal-500 text-white text-xl font-semibold py-2 px-6 rounded-lg shadow-lg hover:bg-teal-400 transition-colors duration-300 ease-in-out transform hover:scale-105 flex items-center mb-20"
             >
               <img className="w-12 mr-5" src={Telegram} alt="Telegram icon" />
               Telegram kanal
