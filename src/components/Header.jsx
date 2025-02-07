@@ -121,7 +121,7 @@ const Header = () => {
         initial={{ x: "100%" }}
         animate={{ x: isOpen ? "0%" : "100%" }}
         transition={{ duration: 0.3 }}
-        className="md:hidden bg-gray-700 text-white fixed inset-0"
+        className="md:hidden bg-gray-700 text-white fixed inset-0 overflow-y-auto"
       >
         <div className="flex justify-end p-5">
           <button onClick={() => setIsOpen(false)} className="text-3xl">
@@ -164,8 +164,6 @@ const Header = () => {
               <img className="w-12 mr-5" src={Telegram} alt="Telegram icon" />
               Telegram kanal
             </button>
-
-            <a href=""></a>
           </div>
         </nav>
       </motion.div>
