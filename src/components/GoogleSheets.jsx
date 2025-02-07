@@ -4,7 +4,7 @@ import Googlesheets from "../img/GoogleSheets.png";
 
 const GoogleSheets = () => {
   return (
-    <section className="py-12">
+    <section id="GoogleSheets" className="py-12">
       <div className="w-full max-w-7xl mx-auto px-5">
         {/* Sarlavha */}
         <motion.div

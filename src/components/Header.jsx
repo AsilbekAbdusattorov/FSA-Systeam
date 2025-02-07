@@ -7,8 +7,8 @@ import CallCenter from "../img/ofis-call-center.png";
 import Telegram from "../img/ofis-telegram.png";
 
 const links = [
-  { name: "Google Sheets", path: "/google-sheets" },
-  { name: "Dashboard", path: "/dashboard" },
+  { name: "Google Sheets", path: "#GoogleSheets" },
+  { name: "Dashboard", path: "#Dashboard" },
   { name: "Web Sayt", path: "/web-sayt" },
   { name: "AppScript", path: "/appscript" },
   { name: "AppSheet", path: "/appsheet" },
@@ -96,13 +96,13 @@ const Header = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.2 }}
             >
-              <NavLink
+              <a
                 className="relative text-lg font-medium hover:text-yellow-300 transition-colors group"
-                to={link.path}
+                href={link.path}
               >
                 {link.name}
                 <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-yellow-300 transition-all duration-300 group-hover:w-full"></span>
-              </NavLink>
+              </a>
             </motion.div>
           ))}
         </nav>
