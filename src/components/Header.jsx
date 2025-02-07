@@ -157,10 +157,15 @@ const Header = () => {
               <img className="w-12 mr-5" src={CallCenter} alt="CallCenter" />
               Xizmat ko'rsatish
             </button>
-            <button className="bg-teal-500 text-white text-xl font-semibold py-2 px-6 rounded-lg shadow-lg hover:bg-teal-400 transition-colors duration-300 ease-in-out transform hover:scale-105 flex items-center">
+            <button
+              onClick={() => window.open("https://t.me/FSA_syesteam", "_blank")}
+              className="bg-teal-500 text-white text-xl font-semibold py-2 px-6 rounded-lg shadow-lg hover:bg-teal-400 transition-colors duration-300 ease-in-out transform hover:scale-105 flex items-center"
+            >
               <img className="w-12 mr-5" src={Telegram} alt="Telegram icon" />
               Telegram kanal
             </button>
+
+            <a href=""></a>
           </div>
         </nav>
       </motion.div>
@@ -206,15 +211,18 @@ const Header = () => {
                   value={phone}
                   onChange={(e) => {
                     let value = e.target.value;
+
                     // Avtomatik +998 qo'shish va faqat raqamlar, 9 ta raqam kiritish
-                    if (value.startsWith("+998") && value.length <= 13) {
-                      setPhone(value);
-                    } else if (!value.startsWith("+998")) {
+                    if (value === "") {
+                      setPhone("");
+                    } else if (value.startsWith("+998")) {
+                      // Agar +998 kiritilgan bo'lsa, 13 ta belgidan oshmasligi kerak
+                      setPhone(value.slice(0, 13));
+                    } else {
+                      // Faqat raqamlarni qabul qilish va 9 ta raqam kiritish
                       setPhone(
                         "+998" + value.replace(/[^0-9]/g, "").slice(0, 9)
                       );
-                    } else {
-                      setPhone(value.slice(0, 13));
                     }
                   }}
                   required
