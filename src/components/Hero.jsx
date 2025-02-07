@@ -110,11 +110,11 @@ const Hero = () => {
           }}
         >
           {[
-            { src: Websayt, alt: "Web Sayt", label: "Web Sayt" },
             { src: googlesheets, alt: "Google Sheets", label: "Google Sheets" },
+            { src: Dashboard, alt: "Dashboard", label: "Dashboard" },
+            { src: Websayt, alt: "Web Sayt", label: "Web Sayt" },
             { src: Appscript, alt: "App Script", label: "App Script" },
             { src: Appsheet, alt: "AppSheet", label: "AppSheet" },
-            { src: Dashboard, alt: "Dashboard", label: "Dashboard" },
           ].map((item, index) => (
             <motion.div
               key={index}
