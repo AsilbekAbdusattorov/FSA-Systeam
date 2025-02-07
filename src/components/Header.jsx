@@ -140,13 +140,13 @@ const Header = () => {
               transition={{ duration: 0.5, delay: index * 0.2 }}
               className="relative"
             >
-              <NavLink
+              <a
                 className="relative text-xl font-medium transition-colors group text-white border-2 py-3 px-4 rounded-2xl bg-gray-800  overflow-hidden"
-                to={link.path}
+                href={link.path}
               >
                 {link.name}
                 <div className="border-[10px] rounded-2xl absolute inset-0 animate-spin-border shadow-yellow-500 shadow-2xl" />
-              </NavLink>
+              </a>
             </motion.div>
           ))}
           <div className="flex flex-col gap-5">
