@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@keyframes spin-border {
+    0% {
+      border-top-color: blue;           /* Ko'k rang */
+      border-right-color: transparent;
+      border-bottom-color: transparent;
+      border-left-color: transparent;
+    }
+    25% {
+      border-top-color: transparent;
+      border-right-color: blue;         /* Ko'k rang */
+      border-bottom-color: transparent;
+      border-left-color: transparent;
+    }
+    50% {
+      border-top-color: transparent;
+      border-right-color: transparent;
+      border-bottom-color: blue;        /* Ko'k rang */
+      border-left-color: transparent;
+    }
+    75% {
+      border-top-color: transparent;
+      border-right-color: transparent;
+      border-bottom-color: transparent;
+      border-left-color: blue;          /* Ko'k rang */
+    }
+    100% {
+      border-top-color: blue;           /* Ko'k rang */
+      border-right-color: transparent;
+      border-bottom-color: transparent;
+      border-left-color: transparent;
+    }
+  }
+  
+  .animate-spin-border {
+    animation: spin-border 0.4s linear infinite;  /* Tezroq aylanish uchun 1s */
+  }
+  
