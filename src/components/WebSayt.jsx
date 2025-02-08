@@ -6,7 +6,7 @@ const WebSayt = () => {
   const sectionRef = useRef(null);
 
   return (
-    <section ref={sectionRef} className="bg-gradient-to-r from-gray-700 via-gray-900 to-black py-12">
+    <section id='WebSayt' ref={sectionRef} className="bg-gradient-to-r from-gray-700 via-gray-900 to-black py-12">
       <div className="w-full max-w-7xl mx-auto px-5">
         <motion.div 
           initial={{ opacity: 0, scale: 0.8, rotate: -10 }} 

@@ -9,7 +9,7 @@ import Telegram from "../img/ofis-telegram.png";
 const links = [
   { name: "Google Sheets", path: "#GoogleSheets" },
   { name: "Dashboard", path: "#Dashboard" },
-  { name: "Web Sayt", path: "/web-sayt" },
+  { name: "Web Sayt", path: "#WebSayt" },
   { name: "AppScript", path: "/appscript" },
   { name: "AppSheet", path: "/appsheet" },
 ];
