@@ -28,7 +28,7 @@ const AppScript = () => {
 
   return (
     <section
-      id="AppScript"
+      id="appScriptSection"
       className='bg-gradient-to-r from-gray-700 via-gray-900 to-black py-24'
     >
       <div className='w-full max-w-7xl mx-auto px-8'>
@@ -44,7 +44,7 @@ const AppScript = () => {
             Biz sizning barcha dasturiy yechimlaringizni AppScript orqali yaratishga yordam beramiz. AppScript xizmatlarimiz sizga ishlash jarayonlarini avtomatlashtirish va samaradorlikni oshirishga imkon beradi.
           </p>
         </div>
-        <div className='flex flex-col md:flex-row justify-between gap-12'>
+        <div className='flex flex-col md:flex-row justify-between gap-8'>
           <div className='flex-1'>
             <p
               className={`text-lg text-gray-200 mb-6 transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
