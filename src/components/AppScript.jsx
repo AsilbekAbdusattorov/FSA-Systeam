@@ -28,7 +28,7 @@ const AppScript = () => {
 
   return (
     <section
-      id="appScriptSection"
+      id="AppScript"
       className='bg-gradient-to-r from-gray-700 via-gray-900 to-black py-24'
     >
       <div className='w-full max-w-7xl mx-auto px-8'>
