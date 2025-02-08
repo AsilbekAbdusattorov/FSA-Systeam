@@ -10,7 +10,7 @@ const links = [
   { name: "Google Sheets", path: "#GoogleSheets" },
   { name: "Dashboard", path: "#Dashboard" },
   { name: "Web Sayt", path: "#WebSayt" },
-  { name: "AppScript", path: "/appscript" },
+  { name: "AppScript", path: "#AppScript" },
   { name: "AppSheet", path: "/appsheet" },
 ];
 

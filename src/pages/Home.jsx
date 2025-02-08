@@ -3,6 +3,7 @@ import Hero from '../components/Hero'
 import GoogleSheets from '../components/GoogleSheets'
 import Dashboard from '../components/Dashboard'
 import WebSayt from '../components/WebSayt'
+import AppScript from '../components/AppScript'
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <GoogleSheets/>
       <Dashboard/>
       <WebSayt/>
+      <AppScript/>
     </>
   )
 }
