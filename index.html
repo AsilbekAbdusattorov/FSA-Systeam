@@ -1,39 +1,55 @@
 <!doctype html>
 <html lang="uz">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Ushbu sayt Google Sheets, Apps Script, AppSheet va Dashboard bilan ishlashni osonlashtiradi." />
-    <meta name="keywords" content="Google Sheets, Apps Script, AppSheet, Dashboard, Veb Integratsiya, Avtomatlashtirish" />
-    <meta name="author" content="Asilbek Abdusattorov" />
-    
-    <!-- Telegram sharhlar uchun Open Graph meta teglar -->
-    <meta property="og:title" content="Google Sheets & Apps Script Dashboard" />
-    <meta property="og:description" content="Google Sheets, Apps Script, AppSheet va Dashboard bilan ishlash uchun ushbu saytdan foydalaning." />
-    <meta property="og:image" content="../img/ofislogo.jpg" />
-    <meta property="og:url" content="https://www.sayingiz.com" />
-    <meta property="og:type" content="website" />
-    
-    <!-- Telegram ilovalari uchun meta teg -->
-    <meta name="telegram" content="Telegram sayti bilan moslashuvchan" />
-    
-    <!-- Saytni Telegram'da to'g'ri ko'rsatish uchun -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Google Sheets & Apps Script Dashboard" />
-    <meta name="twitter:description" content="Sayt orqali Google Sheets, Apps Script, AppSheet bilan ishlang." />
-    <meta name="twitter:image" content="../img/ofislogo.jpg" />
-    
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <title>Vite + React</title>
-  </head>
-  <body class="overflow-x-hidden">
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
-  <style>
-    /* body va html uchun overflow-x-hidden qo'shish */
-    html, body {
-      overflow-x: hidden;
-    }
-  </style>
+
+<head>
+  <!-- Charset va viewport -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+  <!-- Sayt haqida asosiy meta ma'lumotlar -->
+  <meta id="description" name="description"
+    content="FSA System - biznes va avtomatlashtirish, ma'lumotlar bazalari, tizimlarni boshqarish va boshqa yuqori texnologiyalarni o'z ichiga olgan ilg'or platforma." />
+  <meta id="keywords" name="keywords"
+    content="FSA System, biznes tizimlari, avtomatlashtirish, ma'lumotlar bazalari, tizimlar boshqaruvi, IT yechimlar, texnologiyalar, veb dasturlar, korporativ tizimlar, raqamli transformatsiya, tarmoq boshqaruvi" />
+  <meta id="name" name="itemprop" content="FSA System - Biznes va Texnologiyalar Platformasi" />
+
+  <!-- Ijtimoiy tarmoqlar uchun Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="FSA System - Biznes va Texnologiyalar Platformasi" />
+  <meta property="og:description"
+    content="FSA System - biznes va avtomatlashtirish, tizimlarni boshqarish va texnologik yechimlar bo'yicha ilg'or platforma." />
+  <meta property="og:url" content="https://fsa-system.uz/" />
+  <meta property="og:image" content="../img/ofislogo.jpg" />
+  <meta property="og:image:width" content="1036" />
+  <meta property="og:image:height" content="416" />
+  <meta property="og:image:type" content="image/png" />
+  <link rel="icon" type="image/jpg" href="../img/ofislogo.jpg" />
+
+  <!-- Google uchun meta teglari -->
+  <meta name="google-site-verification" content="your-google-verification-code" />
+  <meta name="googlebot" id="googlebot" content="index, follow" />
+
+  <!-- Yandex uchun meta teglari -->
+  <meta name="yandex-verification" content="your-yandex-verification-code" />
+  <meta name="yandex" id="yandex" content="index, follow" />
+
+  <!-- Qo'shimcha SEO ma'lumotlar -->
+  <meta name="author" content="Abdusattorov Asilbek" />
+  <meta name="robots" content="index, follow" />
+  <meta name="language" content="uz" />
+  <title>FSA System</title>
+</head>
+<style>
+  html,
+  body {
+    overflow-x: hidden;
+  }
+</style>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
 </html>
