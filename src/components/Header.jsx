@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { motion } from "framer-motion";
 import Logo from "../img/ofislogo.jpg";
@@ -10,8 +10,8 @@ const links = [
   { name: "Google Sheets", path: "#GoogleSheets" },
   { name: "Dashboard", path: "#Dashboard" },
   { name: "Web Sayt", path: "#WebSayt" },
-  { name: "AppScript", path: "#AppScript" },
-  { name: "AppSheet", path: "/appsheet" },
+  { name: "AppScript", path: "#appScriptSection" },
+  { name: "AppSheet", path: "#AppSheet" },
 ];
 
 const Header = () => {
