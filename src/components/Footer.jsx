@@ -222,7 +222,7 @@ const Footer = () => {
                   onClick={() => setIsModalOpen(false)} // Modalni yopish
                   className="bg-gray-500 text-white py-2 px-4 rounded-lg "
                 >
-                  Yopis
+                  Yopish
                 </button>
                 <button
                   type="submit"
