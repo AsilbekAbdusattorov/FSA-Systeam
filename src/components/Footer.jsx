@@ -100,7 +100,7 @@ const Footer = () => {
           <div className="flex flex-col gap-6">
             <button
               onClick={() => setIsModalOpen(true)} // Modalni ochish
-              className="bg-blue-600 text-white text-xl font-semibold py-3 px-8 rounded-lg shadow-xl hover:bg-blue-500 transition-all duration-300 ease-in-out transform hover:scale-105 flex items-center justify-center gap-4"
+              className="bg-blue-600 text-white text-xl font-semibold py-3 px-8 rounded-3xl shadow-lg hover:bg-indigo-900 transition-all duration-500 ease-in-out transform hover:scale-105 flex items-center justify-center gap-4 border-2 border-transparent hover:border-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-opacity-50"
             >
               <img className="w-14" src={CallCenter} alt="CallCenter" />
               Xizmat ko'rsatish
@@ -108,7 +108,7 @@ const Footer = () => {
 
             <button
               onClick={() => window.open("https://t.me/FSA_syesteam", "_blank")}
-              className="bg-teal-500 text-white text-xl font-semibold py-3 px-8 rounded-lg shadow-xl hover:bg-teal-400 transition-all duration-300 ease-in-out transform hover:scale-105 flex items-center justify-center gap-4"
+              className="bg-green-600 text-white text-xl font-semibold py-3 px-8 rounded-3xl shadow-lg hover:bg-green-900 transition-all duration-500 ease-in-out transform hover:scale-105 flex items-center justify-center gap-4 border-2 border-transparent hover:border-green-600 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-opacity-50"
             >
               <img className="w-14" src={Telegram} alt="Telegram icon" />
               Telegram kanal
@@ -220,9 +220,9 @@ const Footer = () => {
                 <button
                   type="button"
                   onClick={() => setIsModalOpen(false)} // Modalni yopish
-                  className="bg-gray-500 text-white py-2 px-4 rounded-lg"
+                  className="bg-gray-500 text-white py-2 px-4 rounded-lg "
                 >
-                  Yopish
+                  Yopis
                 </button>
                 <button
                   type="submit"
